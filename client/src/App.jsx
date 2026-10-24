@@ -14,7 +14,7 @@ import {
 } from "lucide-react";
 import "./App.css";
 
-const API = "https://taskflow-api-wk4h.onrender.com";
+const API = "https://taskflow-api-wk4h.onrender.com/api/tasks";
 
 function App() {
   const [tasks, setTasks] = useState([]);
